@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Kranky');
+
+.jerekipedia {
+  font-family: Kranky;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.green {
+  border: solid 1px #5cb85c;
+  background-color: rgba(92, 184, 92, 0.1);
+}
+
+.grey {
+  border: solid 1px #d9534f;
+  background-color: rgba(220, 220, 220, 0.9);
+}
+
+.text-me {
+  padding-bottom: 15px;
+}
+
+button {
+  font-family: Kranky;
+}
+button:active, .button:active, button:focus, .button:focus, button:hover, .button:hover{
+    outline:none !important;
+}
+
+#switchon {
+  display: none;
+}
+
+.glyph-green {
+  color: #5cb85c;
+}
+
+.glyph-red {
+  color: #999;
+}
