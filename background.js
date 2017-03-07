@@ -20,7 +20,8 @@ function getCurrentTabUrl(tabId, changeInfo, tabInfo) {
 
           chrome.downloads.download({
               url: url,
-              filename: 'Jeremedia/' + cleanedName + '.mhtml'
+              filename: 'Jerekipedia/' + cleanedName + '.mhtml',
+              conflictAction: 'overwrite'
           });
         }
     });
